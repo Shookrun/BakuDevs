@@ -1,7 +1,13 @@
 @font-face {
     font-family: Mulish;
     src: url(../Fonts/Mulish-VariableFont_wght.ttf);
+  
 }
+@font-face {
+    font-family: Lora;
+    src: url(../Fonts//Lora-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -72,7 +78,23 @@ header{
 }
 
 .sectionOne{
-   a{
+    background-color: green;
+    display: flex;
+   .part1{
+    background-color: red;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h1{
+        font-family: Lora;
+        width: 20vw;
+        span{
+            color:#F5AF15;
+        }
+    }
+    a{
         width: 7.4vw;
         border-radius: 20px;
         /* text-align: center; */
@@ -84,10 +106,17 @@ header{
         font-weight: normal;
         font-size: 14px;
         transition: .7s;
+        border: 1px solid;
+
 
         &:hover{
             background-color: transparent;
             color:#008D96;
+            border: 1px solid;
         }
     }
+   }
+   .part2{
+    width: 50vw;
+   }
 }
