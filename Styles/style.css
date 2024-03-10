@@ -7,5 +7,7 @@
 header{
   nav{
     background-color: red;
+    display: flex;
+    align-items: center;
   }
 }
