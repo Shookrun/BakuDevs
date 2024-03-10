@@ -11,39 +11,59 @@
 }
 .container{
     max-width: 1300px;
-    background-color: black;
+    /* background-color: black; */
     margin: 0 auto;
 }
 header{
   nav{
-    background-color: red; 
-    height: 8vh;
+    /* background-color: red;  */
+    height: 10vh;
     display: flex;
 
     .navFirst{
         display: flex;
-        background-color: green;
+        /* background-color: green; */
         width: 30vw;
         justify-content: space-between;
         align-items: center;
     }
-    p{
+    a{
         font-weight: bold;
+        color:black;
     }
     .navSecond{
-        background-color: purple;
+        /* background-color: purple; */
         width: 70vw;
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
+        color:#008D96;
         a{
             color: #008D96;
             display: block;
-            font-weight: bold;
+            font-weight: normal;
             border: 1px solid;
             padding: 10px;
             width: 7vw;
             border-radius: 20px;
-            
+            transition: .7s;
+            &:hover{
+                background-color: #008D96;
+                color:white;
+            }
+        }
+        .registerBtn{
+            width: 10.4vw;
+            background-color: #008D96;
+            color:white;
+            border-color: #008D96;
+            font-weight: normal;
+            font-size: 14px;
+            transition: .7s;
+            &:hover{
+                background-color: transparent;
+                color:#008D96;
+            }
         }
     }
   }
