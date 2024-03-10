@@ -1,13 +1,32 @@
+@font-face {
+    font-family: Mulish;
+    src: url(../Fonts/Mulish-VariableFont_wght.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Mulish;
 }
-
+.container{
+    max-width: 1300px;
+    background-color: black;
+    margin: 0 auto;
+}
 header{
   nav{
-    background-color: red;
+    background-color: red; 
+    height: 8vh;
     display: flex;
-    align-items: center;
+    .navFirst{
+        display: flex;
+        background-color: green;
+        width: 30vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p{
+        font-weight: bold;
+    }
   }
 }
