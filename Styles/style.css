@@ -38,6 +38,7 @@ header{
         align-items: center;
         justify-content: space-evenly;
         color:#008D96;
+
         a{
             color: #008D96;
             display: block;
@@ -60,6 +61,7 @@ header{
             font-weight: normal;
             font-size: 14px;
             transition: .7s;
+
             &:hover{
                 background-color: transparent;
                 color:#008D96;
@@ -67,4 +69,25 @@ header{
         }
     }
   }
+}
+
+.sectionOne{
+   a{
+        width: 7.4vw;
+        border-radius: 20px;
+        /* text-align: center; */
+        padding:12px 20px;
+        display: block;
+        background-color: #008D96;
+        color:white;
+        border-color: #008D96;
+        font-weight: normal;
+        font-size: 14px;
+        transition: .7s;
+
+        &:hover{
+            background-color: transparent;
+            color:#008D96;
+        }
+    }
 }
