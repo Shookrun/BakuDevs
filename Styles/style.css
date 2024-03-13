@@ -179,6 +179,10 @@ header{
             padding: 5px;
             border-radius: 10px;
             background-color: rgba(245, 175, 21,0.7);
+            font-family: Mulish;
+        }
+        .cardTime{
+            color:gray;
         }
     }
     .cardText{
