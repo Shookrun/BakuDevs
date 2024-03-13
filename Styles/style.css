@@ -149,7 +149,7 @@ header{
 .cards{
     display: flex;
     flex-direction: column;
-    /* gap:30px; */
+    gap:30px;
 }
 
 .cardHeader{
@@ -215,21 +215,25 @@ header{
     
     width: 45%;
     display: flex;
-    /* justify-content: space-evenly; */
+
+
+    justify-content: space-between;
     gap: 30px;
+    /* background-color: red; */
 
 
     a{
        
         border-radius: 10px;
         text-align: center;
-        padding:8px 20px;
+        padding:8px 30px;
         display: block;
         background-color: transparent;
         color:#008D96;
         border-color: #008D96;
         font-weight: normal;
         font-size: 14px;
+        font-family: Mulish;
         transition: .7s;
         border: 1px solid;
         
