@@ -149,6 +149,7 @@ header{
 .cards{
     display: flex;
     flex-direction: column;
+    /* gap:30px; */
 }
 
 .cardHeader{
@@ -160,16 +161,51 @@ header{
 
 
 .card{
-    background-color: red;
-    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 20px black;
+    padding: 5px;
+    border-radius: 10px;
+    /* margin: 10px; */
+    width: 23%;
     display: flex;
     flex-direction: column;
+    /* border: 1px solid; */
+    .cardTitles{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0px;
+        .cardTitle{
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgba(245, 175, 21,0.7);
+        }
+    }
+    .cardText{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0px;
+        p{
+            width: 150px;
+            font-family: Mulish ;
+        }
+        i{
+            background-color: #008D96;
+            padding: 15px 18px;
+            color:white;
+            border-radius: 50%;
+        }
+    }
 }
 
 .cardsMenu{
     display: flex;
-    background-color: green;
+    margin-top: 10px;
+    /* background-color: green; */
     flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
 }
 .headerBtn{
     
